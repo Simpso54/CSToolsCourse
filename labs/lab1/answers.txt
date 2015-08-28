@@ -38,17 +38,22 @@ cd ~/cs190lab1
 # Task 1 Answer
 # -----------------
 
+rm -r human
 
 # -----------------
 # Task 2 Answer
 # -----------------
 
+mkdir mouse
+cd mouse
+mkdir sounds
+mkdir "famous mice"
 
 # -----------------
 # Task 3 Answer
 # -----------------
 
-
+mv dog* ~/cs190lab1/dog/sounds
 
 # ignore
 cd ~/cs190lab1/dog
@@ -58,7 +63,7 @@ cd ~/cs190lab1/dog
 # Task 4 Answer
 # -----------------
 
-
+mv "famous cows" "famous dogs"
 
 # ignore
 cd ~/cs190lab1/fox/sounds
@@ -68,7 +73,7 @@ cd ~/cs190lab1/fox/sounds
 # Task 5 Answer
 # -----------------
 
-
+cp -r "ding ding ding" "ding ding ding ding"
 
 # ignore
 cd ~/cs190lab1/cat/sounds
@@ -78,4 +83,4 @@ cd ~/cs190lab1/cat/sounds
 # Task 6 Answer
 # -----------------
 
-
+mv ../cat* .
